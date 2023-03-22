@@ -1,0 +1,50 @@
+.bx-wrapper {
+    margin: 0 auto;
+    box-shadow: none;
+}
+
+.hide {
+    display: none;
+}
+
+.bx-default-pager {
+    justify-content: center;
+    display: flex;
+}
+
+.bx-pager-item {
+    margin-top: 38px ;
+    width: 8px;
+    height: 8px;
+    background-color:rgba(43, 41, 45, 0.5);
+    border-radius: 50%;
+}
+
+.bx-pager-item:not(:last-of-type) {
+    margin-right: 13px;
+}
+
+.bx-pager-link {
+    opacity: 0;
+}
+
+.carrousel {
+    text-align: center;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.bx-pager-item:hover {
+    background-color: #575445;
+    transition: 300ms;
+}
+
+@media screen and (max-width: 801px) {
+    .container {
+        max-width: 500px;
+    }
+
+    .bx-viewport {
+        height: 445px;
+    }
+}
